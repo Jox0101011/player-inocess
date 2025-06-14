@@ -5,11 +5,12 @@ player_install() {
 
 player_web() {
   live-server web/
-  echo "[+] ON"
+
+  echo -e "[+] ON"
   }
 
 player_cli() {
-  ./player-sh
+  ./playersh
   }
 
 player() {
