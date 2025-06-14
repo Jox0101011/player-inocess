@@ -1,0 +1,4 @@
+playersh() {
+    while true; do
+      read -r -p "~>" input 
+  }

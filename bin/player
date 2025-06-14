@@ -1,0 +1,15 @@
+
+player-web() {
+
+  }
+
+player-cli() {
+  ./player-sh
+  }
+
+player() {
+  in "$1" case
+  
+  cli) player-cli()
+  web) player-web()
+  }
