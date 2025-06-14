@@ -1,15 +1,24 @@
-
-player-web() {
-
+player_install() {
+   sudo pacman -S npm
+   sudo npm -g live-server
   }
 
-player-cli() {
+player_web() {
+  live-server web/
+  echo "[+] ON"
+  }
+
+player_cli() {
   ./player-sh
   }
 
 player() {
-  in "$1" case
-  
-  cli) player-cli()
-  web) player-web()
+  case "$1" in
+
+  cli) player_cli ;;
+  web) player_web ;;
+  install) player_install ;;
+  *) echo "\e[31m[!] Usage: player [cli|web|install]\e[0m" ;;
+
+  esac
   }

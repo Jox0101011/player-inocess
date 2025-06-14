@@ -1,4 +1,17 @@
 playersh() {
+
     while true; do
-      read -r -p "~>" input 
+        read -e -p $'Inocess > ' input
+    [[ -n "$input" ]];
+  cmd="${input%% *}"
+  args="${input#* }"
+
+  if declare -f "$cmd" > /dev/null; then
+    $cmd $args
+  elif command -v "$cmd" > /dev/null; then
+    $cmd $args 
+  else
+    echo "Command '$cmd' not available."
+  fi
+done
   }
