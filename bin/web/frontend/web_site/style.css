@@ -1,66 +1,109 @@
 body {
-    background-color: #0F0F0F ;
     margin: 0;
-    overflow-x: hidden ;
-}
-.logo {
-    position: fixed;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 80px;
-    letter-spacing: 2px;
-    left: 800px;
-    top: 10px;
+    background-color: #0F0F0F;
 }
 
-.text {
-    position: fixed;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color:  #B0B0B0;
-    font-size: 80px;
-    letter-spacing: -2px;
-    left: 520px;
-    top: 130px;
-}
-
-.container {
-    display: flex;
-    gap: 20px;
-}
-
-.con {
+.edd {
+    display: grid;
+    grid-template-columns: repeat(3, 345px);
     position: relative;
-    color: #373b3b;
-    text-decoration: none;
+    grid-gap: 60px 40px;   
+}
+
+.edd > div {
+    position: relative;
+    left: 300px;
+    top: 90px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.Bpesquisa {
+    z-index: 2;
+    border-radius: 40px;
+    position: fixed;
+    top: 13px;
+    left: 620px;
+    width: 300px;
+    height: 5px;
+    border: 2px solid #2E2E2E;
+    outline: none;
+}
+
+#Bpesquisa {
+    background-color: #121212;
+    align-items: right;
+    padding: 12px;
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    top: 500px;
+}
+
+.rodape {
+    z-index: 1;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(26, 25, 25, 0.91);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.perfil {
+    position: fixed;
+    top: 68px;
+    left: 30px;
+    width: 220px;
+}
+
+.bi-gear-fill {
+    font-size: 18px;
+    color: white;
+    position: fixed;
+    top: 350px;
+    left: 12px;
+    cursor: pointer;
+}
+
+.bi-person-circle {
+    font-size: 18px;
+    color: white;
+    position: fixed;
+    top: 380px;
+    left: 12px;
+    cursor: pointer;
+}
+
+.bi-plug {
+    font-size: 18px;
+    color: white;
+    position: fixed;
+    top: 410px;
+    left: 12px;
+    cursor: pointer;
+}
+
+.videoR {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 340px;
     left: 50px;
 }
 
-#fav:hover {
-    font-size: 110px;
-    color: white;
+.EB {
+    position: fixed;
+    top: 500px;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-#img:hover {
-    font-size: 110px;
-    color: white;
-}
-
-#vid:hover {
-    font-size: 110px;
-    color: white;
-}
-
-#ser:hover {
-    font-size: 110px;
-    color: white;
-}
-
-#fil:hover {
-    font-size: 110px;
-    color: white;
+.bloco {
+    width: 150px;
+    height: 80px;
+    background-color: white;
 }
