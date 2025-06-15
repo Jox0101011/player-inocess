@@ -1,7 +1,7 @@
 load_plugins() {
     echo "[*] Loading..."
 
-    for plugin in ../plugins/*.js; do
+    for plugin in ../plugins/*.*; do
       source "$plugin"
       echo "[+] Plugin Loaded: $(basename $plugin)"
     done

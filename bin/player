@@ -1,9 +1,13 @@
-player_install() {
+_plugin() {
+    cat ../plugins/*.* | grep PLUGIN_NAME=
+  }
+_install() {
    sudo pacman -S npm
    sudo npm -g live-server
   }
 
-player_web() {
+_web() {
+  load_plugins
   live-server web/
 
   echo -e "[+] ON"
@@ -11,9 +15,10 @@ player_web() {
 
 player() {
   case "$1" in
-  web) player_web ;;
-  install) player_install ;;
-  *) echo "\e[31m[!] Usage: player [web|install]\e[0m" ;;
+  web) _web ;;
+  install) _install ;;
+  plugin) _plugin ;;
+  *) echo "\e[31m[!] Usage: player [web|install|plugin]\e[0m" ;;
 
   esac
   }
