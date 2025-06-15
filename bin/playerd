@@ -8,7 +8,7 @@ _install() {
 
 _web() {
 
-  live-server web/
+  live-server web/frontend/
 
   echo -e "[+] ON"
   }
