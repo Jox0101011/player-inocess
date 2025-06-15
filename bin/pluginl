@@ -1,4 +1,4 @@
 load_plugins() {
-    cp ../plugins/*.js ../bin/web/
+    cp ../plugins/*.js ../bin/web/fromtedn/
 }
 load_plugins
