@@ -1,9 +1,4 @@
 load_plugins() {
-    echo "[*] Loading..."
-
-    for plugin in ../plugins/*.*; do
-      source "$plugin"
-      echo "[+] Plugin Loaded: $(basename $plugin)"
-    done
+    cp ../plugins/*.js ../bin/web/
 }
-
+load_plugins

@@ -7,7 +7,7 @@ _install() {
   }
 
 _web() {
-  load_plugins
+
   live-server web/
 
   echo -e "[+] ON"
