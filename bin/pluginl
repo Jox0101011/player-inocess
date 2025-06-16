@@ -1,4 +1,8 @@
 load_plugins() {
-    cp ../plugins/*.js ../bin/web/fromtedn/
+   cp ../plugins/*.js ../bin/web/frontend/web_site/
+   cp ../plugins/*.php ../bin/web/frontend/web_site/
+   cp ../plugins/*.json ../bin/web/frontend/web_site/
+   cp ../plugins/*.css ../bin/web/frontend/web_site/
+   cp ../plugins/*.html ../bin/web/frontend/web_site/
+   cp ../plugins/*.sql ../bin/web/frontend/lib/
 }
-load_plugins
