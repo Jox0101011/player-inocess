@@ -8,9 +8,7 @@ _install() {
 
 _web() {
 
-  live-server web/frontend/
-
-  echo -e "[+] ON"
+  live-server web/frontend/web_site
   }
 
 player() {
