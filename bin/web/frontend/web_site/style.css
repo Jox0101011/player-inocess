@@ -3,20 +3,33 @@ body {
     background-color: #0F0F0F;
 }
 
-.edd {
+h2 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 70px;
+    left: 700px;
+}
+
+.edd { /* backg da pagina lil bro */
     display: grid;
-    grid-template-columns: repeat(3, 345px);
+    grid-template-columns: repeat(5, 180px);
     position: relative;
     grid-gap: 60px 40px;   
 }
 
-.edd > div {
+.Ebox:hover {
+    opacity: 0.7;
+}
+
+.edd > a {
     position: relative;
     left: 300px;
-    top: 90px;
-    height: 220px;
+    top: 150px;
+    height: 270px;
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .Bpesquisa {
@@ -55,15 +68,18 @@ body {
     top: 68px;
     left: 30px;
     width: 220px;
+    border-radius: 100%;
 }
 
 .bi-gear-fill {
-    font-size: 18px;
-    color: white;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
     position: fixed;
     top: 350px;
     left: 12px;
     cursor: pointer;
+    font-size: 18px;
+    z-index: 100;
 }
 
 .bi-person-circle {
@@ -72,7 +88,7 @@ body {
     position: fixed;
     top: 380px;
     left: 12px;
-    cursor: pointer;
+    z-index: 100;
 }
 
 .bi-plug {
@@ -81,7 +97,7 @@ body {
     position: fixed;
     top: 410px;
     left: 12px;
-    cursor: pointer;
+    z-index: 100;
 }
 
 .videoR {
@@ -106,4 +122,150 @@ body {
     width: 150px;
     height: 80px;
     background-color: white;
+}
+
+.con {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  position: relative;
+  z-index: 101;
+  background-color: #161616;
+  height: 600px;
+  width: 300px;
+  left: -350px;
+}
+
+.Dc {
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(243, 240, 240);
+  width: 200px;
+  padding: 10px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  flex: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+}
+
+
+.cc {
+    z-index: 101;
+    flex-wrap: wrap;
+    width: 20px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: -600px;
+    top: 30px;
+}
+
+.icC {
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: -130px;
+    left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#configcontainer {
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  background-color: #0c0c0c;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#plugincontainer {
+  z-index: 90;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  background-color: #0c0c0c;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#usercontainer {
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  background-color: #0c0c0c;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.user {
+    width: 300px;
+    position: relative;
+    top: -160px;
+    left: -190px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.span {
+    color: white;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 270px;
+    position: relative;
+}
+
+.span:hover {
+    color: rgb(255, 0, 0);
+}
+
+
+
+.Ebox.um{
+    background-image: url("https://animesonlinecc.to/wp-content/uploads/2019/06/adfe2e276029a526d76fa0a161a6a9fd-185x278.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+/* Container que segura o iframe  */
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+
+/* iframe fica dentro do container */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
