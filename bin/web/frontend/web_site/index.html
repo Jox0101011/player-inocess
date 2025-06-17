@@ -5,27 +5,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>INOCESS</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
 
+    <h2>PRINCIPAIS ESCOLHAS</h2>
 <section class="videos">
-    <div class="edd">
-        <div class="Ebox um"></div>
-        <div class="Ebox dois"></div>
-        <div class="Ebox tres"></div>
-        <div class="Ebox qua"></div>
-        <div class="Ebox cinco"></div>
-        <div class="Ebox seis"></div>
-        <div class="Ebox sete"></div>
-        <div class="Ebox oito"></div>
-        <div class="Ebox nove"></div>
-        <div class="Ebox dez"></div>
-        <div class="Ebox onze"></div>
-        <div class="Ebox doze"></div>
-    </div>
+<div class="edd">
+    <a href="" class="Ebox um" onclick="Eum()" style="cursor: pointer;"><span class="span um">ONE PIECE - TODOS OS EPISODIOS</span></a>
+    <a href="" class="Ebox dois" onclick="Edois()" style="cursor: pointer;"><span class="span dois"></span></a>
+    <a href="" class="Ebox tres" onclick="Eum()" style="cursor: pointer;"><span class="span tres"></span></a>
+    <a href="" class="Ebox quatro" onclick="Eum()" style="cursor: pointer;"><span class="span quatro"></span></a>
+    <a href="" class="Ebox cinco" onclick="Eum()" style="cursor: pointer;"><span class="span cinco"></span></a>
+    <a href="" class="Ebox seis" onclick="Eum()" style="cursor: pointer;"><span class="span seis"></span></a>
+    <a href="" class="Ebox sete" onclick="Eum()" style="cursor: pointer;"><span class="span sete"></span></a>
+    <a href="" class="Ebox oito" onclick="Eum()" style="cursor: pointer;"><span class="span oito"></span></a>
+    <a href="" class="Ebox nove" onclick="Eum()" style="cursor: pointer;"><span class="span nove"></span></a>
+    <a href="" class="Ebox dez" onclick="Eum()" style="cursor: pointer;"><span class="span dez"></span></a>
+ </div>
+
     <div class="videoR"></div>
     <div class="EB">
         <div class="bloco tres"></div>
@@ -36,17 +37,44 @@
 
 <section class="icones">
     <!-- icones nao mexe -->
-    <i class="bi bi-gear-fill"></i> <!-- engrenas-->
-    <i class="bi bi-person-circle"></i> <!-- usuario-->
-    <i class="bi bi-plug"></i> <!-- tomada no cu -->
+    <i class="bi bi-gear-fill" onclick="cfg()" style="cursor: pointer;"></i> <!-- engrenas-->
+    <i class="bi bi-person-circle" onclick="usr()" style="cursor: pointer;"></i> <!-- usuario-->
+    <i class="bi bi-plug" onclick="plg()" style="cursor: pointer;"></i> <!-- tomada no cu -->
+
+    <div id="usercontainer">
+        <input class="Utxt" type="text">
+        <input class="Uck" type="checkbox">
+        <input class="Upw" type="password">
+    <img src="img/perfil.jpg" class="user" alt="" srcset="">
+        <div class=""></div>
+        <div class=""></div>
+    </div>
+
+    <div id="configcontainer">
+        <div class="con"></div>
+        <div class="cc">
+        <h1 class="icC">INOCESS</h1>
+        <button class="Dc idioma">Idioma</button>
+        <button class="Dc tema">Tema</button>
+        <button class="Dc acess">Acessibilidade</button>
+        <button class="Dc perso">Personalizar</button>
+        </div>
+    </div>
+
+    <div id="plugincontainer">
+
+    </div>
+
 </section>
 
-    <img src="img/perfil.png" class="perfil" alt="" srcset=""> <!--imagen de perfil eu acho-->
 
 
+    <img src="img/perfil.jpg" class="perfil" alt="" srcset=""> <!--imagen de perfil-->
     <div class="rodape"></div>
     <input type="text" id="Bpesquisa" placeholder="Pesquisar" class="Bpesquisa" > <!-- quem for fazer a pesquisa cria a id aq -->
 
 
+
+    
 </body>
 </html>
