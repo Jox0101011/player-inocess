@@ -6,7 +6,6 @@
 
 # credits
 # CSS and functions 
----
 [![GitHub](https://img.shields.io/badge/GitHub-ToddJJ99-000?style=for-the-badge&logo=github)](https://github.com/ToddJJ99)
 
 ## Observação para futuros contratos: 
@@ -19,3 +18,4 @@
 - Trabalho em equipe ?/10
 - Futuro na area 10/10
 <p> para ver mais sobre ele clique na tabela acima <p>
+---
