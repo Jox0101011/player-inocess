@@ -5,8 +5,8 @@
 <p> Inocess is a Universal Player web made to be lightweight with plugins </p>
 
 # credits
-<p> CSS and functions </p>
-
+# CSS and functions 
+---
 [![GitHub](https://img.shields.io/badge/GitHub-ToddJJ99-000?style=for-the-badge&logo=github)](https://github.com/ToddJJ99)
 
 ## Observação para futuros contratos: 
