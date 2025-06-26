@@ -18,4 +18,3 @@
 - Trabalho em equipe ?/10
 - Futuro na area 10/10
 <p> para ver mais sobre ele clique na tabela acima <p>
----
