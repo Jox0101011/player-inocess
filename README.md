@@ -10,7 +10,7 @@
 
 ## Observação para futuros contratos: 
 
-<p> ToddJJ99 é uma otima pessoa mexendo no frontend, ele consegue aprender bem e busca sobre os assuntos, unico problema que vi dele nisso foi que apesar da ambição gigante, ele se desgasta muito, e acabei deixando muito peso pra ele </p>
+<p> ToddJJ99 é uma otima pessoa mexendo no frontend, ele consegue aprender bem e busca sobre os assuntos, unico problema que vi dele nisso foi que apesar da ambição gigante, ele se desgasta muito, e acabei deixando muito peso pra ele, eu diria que ele fez praticamente 95% de tudo, bom temos que trazer mais atualizações sobre e talvez esse numero pode aumentar ou diminuir </p>
 
 - Ambição em projeto 8/10
 - Desgaste 10/10
