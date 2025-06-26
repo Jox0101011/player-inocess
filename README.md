@@ -8,3 +8,7 @@
 <p> CSS and functions </p>
 
 [![GitHub](https://img.shields.io/badge/GitHub-ToddJJ99-000?style=for-the-badge&logo=github)](https://github.com/ToddJJ99)
+
+## Observação para futuros contratos: 
+
+<p> ToddJJ99 é uma otima pessoa mexendo no frontend, ele consegue aprender bem e busca sobre os assuntos, unico problema que vi dele nisso foi que apesar da ambição gigante, ele se desgasta muito, e acabei deixando muito peso pra ele </p>
