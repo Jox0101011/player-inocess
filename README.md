@@ -6,4 +6,4 @@
 
 # credits
 <p> CSS and functions </p>
-[![GitHub](https://img.shields.io/badge/GitHub-ToddJJ99-000?style=for-the-badge&logo=github)](https://github.com/ToddJJ99)
+![GitHub](https://img.shields.io/badge/GitHub-ToddJJ99-000?style=for-the-badge&logo=github)](https://github.com/ToddJJ99)
