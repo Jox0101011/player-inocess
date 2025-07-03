@@ -3,8 +3,9 @@ help_menu() {
   echo ""
   echo "commands: "
   echo ""
-  echo "quit"
-  echo "banner"
-  echo "cls"
-  echo "???"
+  echo "q | for quit"
+  echo "banner | for show banner"
+  echo "cls | for clear"
+  echo "search | for search in youtube"
+  echo ""
 }
