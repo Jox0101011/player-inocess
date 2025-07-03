@@ -1,4 +1,4 @@
-source loader
+source ../src/loader
 
 load_plugins
 banner
